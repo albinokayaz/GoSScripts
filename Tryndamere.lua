@@ -4,7 +4,7 @@ Config.addParam("W", "Use W", SCRIPT_PARAM_ONOFF, true)
 Config.addParam("E", "Use E", SCRIPT_PARAM_ONOFF, true)
 Config.addParam("R", "Use R", SCRIPT_PARAM_ONOFF, true)
 Config.addParam("Combo", "Combo", SCRIPT_PARAM_KEYDOWN, string.byte(" "))
-PrintChat("<font color=\"#6699ff\"><b>[AlbinoScripts]: Champion '"..myHeroName.."' - </b></font> <font color=\"#FFFFFF\">Loaded.</font>")
+
 
 OnLoop(function(myHero)
 	if Config.Combo then
